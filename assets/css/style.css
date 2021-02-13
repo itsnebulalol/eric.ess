@@ -1,0 +1,321 @@
+body {
+    font-family: "Dosis", 'Helvetica Neue', 'Lucida Grande', Arial, Verdana, sans-serif;
+    line-height: 1;
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+    position: static;
+    background: url('../video/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    z-index: -2;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+#bigFont {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Dosis, 'Helvetica Neue', 'Lucida Grande', Arial, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 16px 8px;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+a:hover {
+    color: #fff !important;
+    opacity: 1;
+    outline: none !important;
+    text-decoration: none !important;
+    text-shadow: 0 0 1ex #fff, 0 0 4px #fff;
+}
+
+a:active,
+a:focus {
+    color: #fff;
+    outline: none !important;
+    text-decoration: none !important;
+}
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    user-select: none;
+    background: url('../video/bg.jpg') cover no-repeat;
+    background-size: auto;
+    z-index: -100;
+}
+
+#container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 0 120px rgba(0, 0, 0, 0.75);
+}
+
+#container .overlay {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.25;
+    background: #000;
+}
+
+#container .item-title .link-bottom .link-icon {
+    font-size: 32px;
+    /*
+    margin-left: 8px;
+    margin-right: 8px;
+*/
+    margin-left: 6px;
+    margin-right: 6px;
+    /*    margin-bottom: 24px;*/
+    margin-top: 30px;
+}
+
+#container .item-title #message {
+    max-width: 600px;
+    min-height: 320px;
+    margin: 0 auto;
+    padding-left: 12px;
+    user-select: none;
+    pointer-events: none;
+    padding-bottom: 8px;
+}
+
+#container .item-title #message p:first-child {
+    font-size: 128px;
+    line-height: 128px;
+    font-weight: 200;
+    margin-bottom: 24px;
+    z-index: 10;
+    color: #fff;
+}
+
+#container .item-title .link-bottom {
+    max-width: 600px;
+    /*Need this to keep it all alighed with the Eric Golde*/
+    padding: 12px;
+    margin: 0 auto;
+    animation-delay: 5s;
+    animation-duration: 0.25s;
+}
+
+#container .item-title {
+    position: absolute;
+    z-index: 0;
+    top: 50vh;
+    left: 0;
+    visibility: visible;
+    width: 100%;
+    padding: 0;
+    padding: 0 5%;
+    transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+    transform: translateY(-50%);
+    opacity: 1;
+}
+
+p {
+    color: white;
+}
+
+.darkerOverlay {
+    /*Grayed out area*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /*Transparent black*/
+    z-index: 10;
+}
+
+#projectsBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #464a4c;
+    /*#607d8b - alt*/
+    border-radius: 5px;
+    /*Curved edges*/
+    text-align: center;
+    z-index: 11;
+    width: 90%;
+    height: 90%;
+}
+
+.link-icon {
+    cursor: pointer;
+}
+
+#projectsBox .projectButton {
+    line-height: 12px;
+    width: 18px;
+    margin-top: 1px;
+    margin-right: 2px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+}
+
+#projectsBox .container {
+    text-align: center;
+}
+
+#projectsBox .container .project {
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 240px;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.45);
+    margin: 20px;
+    padding: 15px;
+}
+
+#projectsBox .container .project h2 {
+    text-align: left;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+#projectsBox .container .project .description {
+    text-align: left;
+    font-size: 11px;
+    color: #fff;
+    max-height: 23px;
+}
+
+#projectsBox .container .project .btn {
+    position: absolute;
+    font-size: 11px;
+    font-weight: bold;
+    float: right;
+    padding: 10px;
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+    bottom: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#projectsBox .container .project .btnDisabled {
+    color: gray !important;
+    border: 2px solid gray !important;
+    pointer-events: none;
+    text-decoration: none;
+}
+
+#projectsBox .container .project .btnViewProject {
+    color: #00fefe;
+    border: 2px solid #00fefe;
+    right: 10px;
+}
+
+#projectsBox .container .project .btnLaunchProject {
+    right: 100px;
+    border: 2px solid #85fe00;
+    color: #85fe00;
+}
+
+#projectsBox .container .project .btn.ok {
+    background-color: rgba(0, 254, 254, 0.4);
+    color: #fff;
+}
+
+#projectsBox .container .project img {
+    width: 100px; /* you can use % */
+    height: 100px;
+}
+
+#projectsBox .scrollable {
+    height: 100%;
+    overflow: auto;
+}
+
+.scrollable::-webkit-scrollbar {
+    width: 10px;
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #a4a4a4;
+}
+
+.scrollable::-webkit-scrollbar-track {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #1f1f1f;
+}
+
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    margin-top: 4px;
+    /*idk why its being nudged up*/
+/*    color: #a4a4a4;*/
+
+}
+
+.caption {
+    display: block;
+}
+
+/*I know I know its bad practice, but It works. Credit: https://css-tricks.com/how-to-disable-links/*/
+.isDisabled {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.isDisabled > a {
+  color: currentColor;
+  pointer-events: none;
+  text-decoration: none;
+}

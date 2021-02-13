@@ -1,0 +1,224 @@
+[
+    {
+        "name": "ForgeScratch",
+        "img": "custom/ForgeScratch",
+        "matchType": "equals"
+    },
+    {
+        "name": "TheSpookReturns",
+        "img": "custom/TheSpookReturns",
+        "matchType": "equals"
+    },
+    
+    
+    {
+        "name": "Pacific Lutheran University",
+        "img": "custom/PLU",
+        "matchType": "includes"
+    },
+    {
+        "name": "PLU",
+        "img": "custom/PLU",
+        "matchType": "includes"
+    },
+    
+    {
+        "name": "SAAS",
+        "img": "custom/SAAS",
+        "matchType": "includes"
+    },
+    {
+        "name": "Seattle Academy",
+        "img": "custom/SAAS",
+        "matchType": "includes"
+    },
+    {
+        "name": "5619",
+        "img": "custom/SAAS",
+        "matchType": "startsWith"
+    },
+    {
+        "name": "Redshift",
+        "img": "custom/SAAS",
+        "matchType": "startsWith"
+    },
+    {
+        "name": "Social-Innovations",
+        "img": "custom/SAAS",
+        "matchType": "equals"
+    },
+    
+    {
+        "name": "Cydia--",
+        "img": "custom/Cydia",
+        "matchType": "startsWith"
+    },
+    
+    
+    
+    {
+        "name": "AtseUHC",
+        "img": "custom/Minecraft",
+        "matchType": "equals"
+    },
+    {
+        "name": "BetterCreative",
+        "img": "custom/Minecraft",
+        "matchType": "equals"
+    },
+    {
+        "name": "Crotus-Issues",
+        "img": "custom/Minecraft",
+        "matchType": "equals"
+    },
+    {
+        "name": "EricsBetterClientMod",
+        "img": "custom/Minecraft",
+        "matchType": "equals"
+    },
+    {
+        "name": "Forge-1.11-Base-With-Helpers",
+        "img": "custom/Minecraft",
+        "matchType": "equals"
+    },
+    {
+        "name": "Gulp",
+        "img": "custom/Minecraft",
+        "matchType": "equals"
+    },
+    {
+        "name": "KlawScoreboard",
+        "img": "custom/Minecraft",
+        "matchType": "equals"
+    },
+    {
+        "name": "OroUhcPlugins",
+        "img": "custom/Minecraft",
+        "matchType": "equals"
+    },
+    {
+        "name": "Project-Cicada",
+        "img": "custom/Minecraft",
+        "matchType": "equals"
+    },
+    {
+        "name": "RedHCF",
+        "img": "custom/Minecraft",
+        "matchType": "equals"
+    },
+    {
+        "name": "ReflectionHelper",
+        "img": "custom/Minecraft",
+        "matchType": "equals"
+    },
+    {
+        "name": "ReplaceModsWithForgeCSVMappingsGUI",
+        "img": "custom/Minecraft",
+        "matchType": "equals"
+    },
+    {
+        "name": "TempestsBox",
+        "img": "custom/Minecraft",
+        "matchType": "equals"
+    },
+    {
+        "name": "EricsGibsMod",
+        "img": "custom/Minecraft",
+        "matchType": "equals"
+    },
+    
+    {
+        "name": "Arduino",
+        "img": "lang/Arduino",
+        "matchType": "includes"
+    },
+    {
+        "name": "OldRadioProp",
+        "img": "lang/Arduino",
+        "matchType": "includes"
+    },
+    {
+        "name": "OuijaTable",
+        "img": "lang/Arduino",
+        "matchType": "includes"
+    },
+    {
+        "name": "CrateProp",
+        "img": "lang/Arduino",
+        "matchType": "includes"
+    },
+    {
+        "name": "GutarHeroMidi",
+        "img": "lang/Arduino",
+        "matchType": "includes"
+    },
+    {
+        "name": "GuyInABoxProp",
+        "img": "lang/Arduino",
+        "matchType": "includes"
+    },
+    {
+        "name": "FortuneTellerProp",
+        "img": "lang/Arduino",
+        "matchType": "includes"
+    },
+    {
+        "name": "LEDFloodLightMod",
+        "img": "lang/Arduino",
+        "matchType": "includes"
+    },
+    {
+        "name": "OldRadioProp",
+        "img": "lang/Arduino",
+        "matchType": "includes"
+    },
+    {
+        "name": "ParrotProp",
+        "img": "lang/Arduino",
+        "matchType": "includes"
+    },
+    {
+        "name": "PedestalButtonGlow",
+        "img": "lang/Arduino",
+        "matchType": "includes"
+    },
+    {
+        "name": "PhoneProp",
+        "img": "lang/Arduino",
+        "matchType": "includes"
+    },
+    {
+        "name": "PibballMachine",
+        "img": "lang/Arduino",
+        "matchType": "includes"
+    },
+    {
+        "name": "PinballMachineWifi",
+        "img": "lang/Arduino",
+        "matchType": "includes"
+    },
+    {
+        "name": "SkeletonInABarrelProp",
+        "img": "lang/Arduino",
+        "matchType": "includes"
+    },
+    {
+        "name": "SkeletonProp",
+        "img": "lang/Arduino",
+        "matchType": "includes"
+    },
+    {
+        "name": "WifiRoomba",
+        "img": "lang/Arduino",
+        "matchType": "includes"
+    },
+    
+    
+    
+    {
+        "name": "DUMMY",
+        "img": "DUMMY",
+        "matchType": "euqals, startsWith, "
+    }
+    
+]
