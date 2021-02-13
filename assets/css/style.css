@@ -5,7 +5,7 @@ body {
     overflow: auto;
     padding: 0;
     position: static;
-    background: url('../video/bg.jpg') no-repeat center center fixed;
+    background: url('/assets/video/bg.jpg') no-repeat center center fixed;
     background-size: cover;
     z-index: -2;
 }
@@ -74,7 +74,7 @@ video#bgvid {
     transform: translate(-50%, -50%);
     pointer-events: none;
     user-select: none;
-    background: url('../video/bg.jpg') cover no-repeat;
+    background: url('/assets/video/bg.jpg') cover no-repeat;
     background-size: auto;
     z-index: -100;
 }
